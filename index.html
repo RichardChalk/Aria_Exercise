@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="top">
+      <img src="/images/systementor.png" />
+      <div class="nav">
+        <span>Hem</span><span>Produkter</span><span>Kontakt</span>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="title">Välkommen</div>
+      <div class="text">Köp elektronik till bra pris.</div>
+
+      <div class="field">
+        <div>Sök</div>
+        <input placeholder="Skriv här" />
+      </div>
+
+      <div class="field">
+        <div>E-post</div>
+        <input />
+      </div>
+
+      <div class="btn" onclick="alert('Skickat!')">Skicka</div>
+
+      <div class="acc">
+        <div
+          class="acc-toggle"
+          onclick="document.querySelector('.acc-panel').classList.toggle('hidden')"
+        >
+          Leveransvillkor (klicka)
+        </div>
+        <div class="acc-panel hidden">Vi levererar inom 2–4 dagar…</div>
+      </div>
+    </div>
+
+    <div class="bottom">© 2025 Nätonnät</div>
+  </body>
+</html>
